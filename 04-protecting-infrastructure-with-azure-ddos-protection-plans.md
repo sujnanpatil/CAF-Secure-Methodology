@@ -33,7 +33,7 @@ In this task, you will create a DDoS protection plan to protect the virtual netw
  
 1. On the **DDoS protection** page, provide the information as mentioned below,
    - Subscription: **Leave it as default (1)**.
-   - Resource Group: **JumpVM-rg (2)**.
+   - Resource Group: **FirewallVM-rg (2)**.
    - Name: Enter **DDoSprotection (3)**.
    - Region: **<inject key="Region" />** **(4)**
    - Click on **Next-Tags (5)**.
@@ -62,7 +62,7 @@ In this task, you will create a DDoS protection plan to protect the virtual netw
 
 1. On the **Add virtual network to DDoS plan** blade, provide the information as mentioned below,
     - Subscription: **Leave it as default (1)**.
-    - Resource Group: **JumpVM-rg (2)**.
+    - Resource Group: **FirewallVM-rg (2)**.
     - Virtual network: Select **vnet (3)**.
     - Click on **Add (4)**
    

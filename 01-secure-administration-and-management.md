@@ -199,7 +199,7 @@ In this task, you will create Virtual network flow logs and these configurations
 
       ![](images/dset.png)
 
-   <validation step="0801fcbb-aa4d-4366-a034-90ff2f2fbd28" />
+   <validation step="86917cda-b467-4820-9dc8-a9a2ac9fb6ba" />
 
    > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
       > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.

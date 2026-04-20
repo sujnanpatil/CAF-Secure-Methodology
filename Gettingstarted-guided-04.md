@@ -40,83 +40,71 @@ The architecture for this lab involves the following key components:
 
 - **Firewall Manager:** Acts as a centralized management tool for monitoring the deployment and protection status of virtual networks. It confirms that DDoS protection is active and operational across configured resources.
 
-## Getting Started with the Lab 
+## Getting Started with the Lab Environment
 
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+## Accessing Your Lab Environment
 
-![](./images/GS6.png) 
+Once you're ready to begin, your virtual machine and lab guide will be available directly within your web browser.
 
->**Note:** If you observe any PowerShell script being executed on the VM, kindly do not close the window. Allow the script to complete its execution fully before taking any further actions.
+![](./images/vm00100.png)
 
 ## Virtual Machine & Lab Guide
 
-In the integrated environment, the lab VM serves as the designated workspace, while the lab guide is accessible on the right side of the screen.
-
-**Note**: Kindly ensure that you are following the instructions carefully to ensure the lab runs smoothly and provides an optimal user experience.
+The virtual machine provides access to the Azure Portal and Microsoft security portals.  
+The lab guide remains visible throughout the lab exercises.
 
 ## Exploring Your Lab Resources
 
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+Navigate to the **Environment** tab to review lab resources and credentials.
 
-![](./images/GS17.png)
-   
+![](./images/env01.png)
+
 ## Utilizing the Split Window Feature
- 
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
- 
-![](./images/GS8.png)
 
-## Lab Guide Zoom In/Zoom Out
- 
-To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment. 
+Use the **Split Window** button in the top-right corner to open the lab guide in a separate window for easier navigation.
 
-![08](./images/zoom.png)  
+![](./images/splitwin01.png)
 
 ## Managing Your Virtual Machine
 
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Start, stop, or restart your virtual machine as needed from the **Resources** tab.
 
-![](./images/GS5.png)
-  
+![](./images/RT1.png)
+
+## Lab Guide Zoom In / Zoom Out
+
+Adjust the zoom level using the **A↕ : 100%** icon located next to the timer.
+
+![](./images/zoominout1.png)
+
 ## Let's Get Started with Azure Portal
 
-1. On your virtual machine, click on the Azure Portal icon as shown below:
+1. On the virtual machine, click the **Azure Portal** icon:
 
-   ![](./images/GS1.png)
-   
-1. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
- 
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
- 
-      ![](./images/GS2.png "Enter Email")
+    ![](./images/vm101.png)
 
-1. Next, provide your password:
- 
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
- 
-      ![](./images/GS3.png "Enter Password")
+1. On the **Sign in to Microsoft Azure** page, enter:
 
-1. If **Action Required** window pop up click on **Ask later**. 
+   - **Email/Username:** <inject key="AzureAdUserEmail" enableCopy="true"/>
 
-    ![](./images/imagescre.png)
- 
-1. If prompted to stay signed in, you can click "No." 
+       ![](./images/sign1.png)
 
-    ![](./images/GS9.png)
+1. Enter the password:
 
-1. If you see the pop-up **Sign in to sync data**, Click on **No,thanks.** 
+   - **Password:** <inject key="AzureAdUserPassword" enableCopy="true"/>
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+      ![](./images/tpwrd.png)
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
+1. Select **No** when prompted to stay signed in.
+
+   ![](./images/sign001.png)
 
 ## Support Contact
- 
-The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
-Learner Support Contacts:
-- Email Support: cloudlabs-support@spektrasystems.com
-- Live Chat Support: https://cloudlabs.ai/labs-support
+CloudLabs support is available 24/7 to assist learners and instructors.
+
+- **Email:** cloudlabs-support@spektrasystems.com  
+- **Live Chat:** https://cloudlabs.ai/labs-support  
 
 Now, click on **Next** from the lower right corner to move on to the next page. 
 

@@ -201,14 +201,45 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
        ![rule](images/acrfwr.png)
 
      > **Note:** This may take a few minutes to update the rule collection group. Please wait for the updates to complete before proceeding to the next steps.
-      
-1. Navigate to the Firewall's public IP address and generate some traffic by refreshing the browser.
-
-    ![pip](/images/a32.png)
 
 1. In the Azure portal, search for **Network Watcher (1)** and select **Network Watcher (2)**.
 
    ![](images/nwsrch.png)
+
+1. From the left hand pane of the **Network Watcher** select **Flow Logs 
+(1)** under **Logs**. Click on **+ Create (2)** in the top navigation pane.
+
+    ![](images/CAF-lab5-12.png)
+   
+1. In the Create a flow log page, select the **default subscription (1)**, **Virtual network (2)** as Flow log type, select dropdown button beside **+ Select target resource (3)** then choose **Virtual network (4)** as a Select target resource.
+
+    ![](images/flwtyp.png)
+
+1. In the **Select Virtual network** page, select **vnet** **(1)** and click on **Confirm selection (2)**.
+
+    ![](images/csel.png)
+
+1. For the Instance details, provide the following details and click on **Next: Analytics > (4)**
+
+   - **Subscription:** Select **default subscription (1)** from the drop-down.
+
+   - **Storage Account:** Select **nsglogs<inject key="DeploymentID" enableCopy="false" />** from the drop down.
+
+   - **Retention (days):** **0 (3)**
+
+       ![](images/AI000.png)  
+   
+1. Under the **Analytics** tab, check the box to **Enable traffic analytics (1)**, select **Every 10 mins (2)** under the **Traffic analytics processing interval** and click **Review + create (3)**.
+
+    ![create](images/flrc.png)
+
+1. On the Review + create tab, review the summary and click on **Create** button.
+
+   >**Note:** The deployment might take a few minutes to complete. Wait till the deployment is completed before proceeding to the next step.
+
+      ![](images/flrcc1.png)  
+
+1. Click on **Review + Create** and subsequently click on **Create**
 
 1. From the left navigation menu under the **Monitoring** section and click on **Traffic Analytics (1)**. On the **Traffic Analytics** page, set the **Flow log subscription** to **Default subscription (2)** ,**Flow log type** to **VNet (3)** and then **Time interval** to **Last 30 minutes (4)** 
 

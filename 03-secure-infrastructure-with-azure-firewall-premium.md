@@ -26,7 +26,7 @@ You will be able to complete the following tasks:
 - Task 6: IP Groups
 - Task 7: Azure Firewall Policies with Firewall Manager
 
- ## **Task 1: Configure WAF to protect your web application**
+ ## Task 1: Configure WAF to protect your web application
  
  In this task, you will add a Virtual Machine as the Backend pool of the Application gateway and also configure the Application Gateway from the firewall policy.
  
@@ -54,7 +54,7 @@ You will be able to complete the following tasks:
     
 1. Once the Backend pools are saved, you will see the notification that says **Deployment succeeded**.
 
-   ![](images/editbackendpool-succeeded.png)
+   ![](images/editbackendpool-succeeded1.png)
 
 1. Navigate back to the home page and search for **Application Firewall Policies (1)** from the search bar and select **Web Application Firewall Policies (WAF) (2)**.
 
@@ -87,35 +87,35 @@ You will be able to complete the following tasks:
 
 In this task, you will enable diagnostic settings in Azure Firewall to collect firewall logs.
 
-1. Navigate to the home page in the Azure portal, search for **Subscriptions (1)** and **select (2)** from suggestions.
+1. Navigate to the home page in the Azure portal, search for **Subscriptions (1)** and select **Subscriptions  (2)** from suggestions.
 
-   ![](images/scafinfra19.jpg "search gateway")
+   ![](images/subsrch.png "search gateway")
 
 1. Select the **default subscription** available in the list.
 
-   ![](images/scafinfra20-1.png "search gateway")
+   ![](images/E3T1S2.png "search gateway")
 
-1. From the left-side blade, select **Preview features (1)** under Settings and select **Microsoft.Network (2)** in the Provider list and click on **Apply (3)**.
+1. From the left-side blade, select **Preview features (1)** under **Settings** and click on **Provider:All (2)** to select **Microsoft.Network (3)** in the Provider list and click on **Apply (4)**.
 
-   ![](images/scafinfra21-1.png "search gateway")
+   ![](images/m.net.png "search gateway")
 
-1. Select **Enable Azure Firewall Structured Logs (1)** and click on **Register (2)**.
+1. Now you should be able to see the **Enable Azure Firewall Structured Logs** is already registered by default.
 
-   ![](images/scafinfra22-1.png "search gateway")
+   ![](images/E3T1S4.png "search gateway")
+
+   > **Note:** If the preview feature is not registered, Select **Enable Azure Firewall Structured Logs (1)** then click on **Register (2)**. On the **Do you want to register the selected features?** pop-up, choose **OK**.
+
+      ![](images/fslreg.png "search gateway")
 
 1. In the Azure portal, navigate to your **FirewallVM-rg** resource group and select the **AzureFirewall** resource.
 
-   ![](images/upd-2.png "search gateway")
+   ![](images/fwrgwall.png "search gateway")
 
-1. On the firewall page, select **Diagnostic settings** under Monitoring section.
+1. On the firewall page, under **Monitoring** section select **Diagnostic settings (1)** and select **+ Add diagnostic setting (2)** on the **Diagnostic settings** page.
 
-   ![](images/firewall2.png "search gateway")
+   ![](images/digwall.png "search gateway")
 
-1. Select **+ Add diagnostic setting** on the **Diagnostic settings** page. 
-
-   ![](images/firewall4.png "search gateway")
-
-1. Enter the **Diagnostic setting name** as **fw-diagnostics**
+1. Enter the **Diagnostic setting name** as **fw-diagnostics**.
 
    ![](images/firewall3.png "search gateway")
 
@@ -131,11 +131,11 @@ In this task, you will enable diagnostic settings in Azure Firewall to collect f
    - Azure Firewall Fat Flow Log
    - Azure Firewall Flow Trace Log
 
-     ![](images/scafinfra23.jpg "search gateway")
+     ![](images/E3T1S9.png "search gateway")
 
 1. Under **Destination details**, select **Send to Log Analytics workspace (1)**, choose **Resource specific (2)** for the Destination table option, and then click **Save (3)**.
 
-   ![](images/upd-3.png "search gateway")
+   ![](images/destdet2.png "search gateway")
 
 ## Task 3: Test IDPS for HTTP traffic
 

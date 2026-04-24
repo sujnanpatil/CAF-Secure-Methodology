@@ -8,7 +8,7 @@
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/02-secure-application.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/02-Azure-Web-Application-Firewall-on-Application-Gateway.md",
         "Order": 2
       }      
      
